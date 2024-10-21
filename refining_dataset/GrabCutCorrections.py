@@ -138,9 +138,9 @@ for file_name in image_files:
         cv.circle(display_img, (cursor_x, cursor_y), brush_radius, (255,255,255), -1)
         #writing text to indicate adding or removing from mask
         if adding_to_selection:
-            cv.putText(display_img, "[+] 'i'", (20, 30), cv.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 2)
+            cv.putText(display_img, "[+] i", (20, 30), cv.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 2)
         else:
-            cv.putText(display_img, "[-] 'i'", (20, 30), cv.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 2)
+            cv.putText(display_img, "[-] i", (20, 30), cv.FONT_HERSHEY_SIMPLEX, 1, (255,255,255), 2)
         
         output_mask_display = cv.convertScaleAbs(output_mask*255)
         combined_image = np.concatenate((display_img, np.dstack((output_mask_display,output_mask_display,output_mask_display))), axis=1)
