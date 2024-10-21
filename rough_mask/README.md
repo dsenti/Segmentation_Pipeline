@@ -12,7 +12,7 @@ To use this notebook, ensure you have the following Python packages installed:
 ```bash
 pip install numpy matplotlib opencv-python scikit-image ipywidgets
 ```
-If you run into issues, please refer to the version numbers in requirements.txt located in the parent folder.
+If you run into issues, please refer to the version numbers in [`requirements.txt`](../requirements.txt) located in the parent folder.
 
 ## Usage
 

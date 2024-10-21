@@ -19,7 +19,7 @@ To utilize these scripts, ensure you have the following dependencies installed:
 ```bash
 pip install numpy matplotlib opencv-python scikit-image ipywidgets
 ```
-Refer to the `requirements.txt` file in the parent folder for version details if conflicts arise.
+Refer to the [`requirements.txt`](../requirements.txt) file in the parent folder for version details if conflicts arise.
 
 ## Usage
 
